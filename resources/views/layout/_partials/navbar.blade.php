@@ -7,7 +7,7 @@
      - transition-transform duration-300: Hace que la animación al abrir/cerrar sea súper suave.
 -->
 <aside id="sidebar-menu"
-    class="fixed top-0 left-0 h-screen w-64 bg-slate-900 border-r border-slate-800 text-white z-50 transform -translate-x-full transition-transform duration-300 ease-in-out sm:translate-x-0">
+    class="fixed top-0 left-0 h-screen w-64 bg-slate-900 border-r border-slate-800 text-white z-50 transform -translate-x-full transition-transform duration-300 ease-in-out sm:translate-x-0 sm:static sm:z-auto">
 
     <div class="p-5 flex flex-col h-full justify-between relative">
         <div>
